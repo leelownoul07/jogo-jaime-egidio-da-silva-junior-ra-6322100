@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-widht, initial-scale=1.0">
+<script type="text/javascript" src="script.js"></script>
+<title> Pedra Papel Tesoura </title>
+
+<script>
+
+    var Nome="Jaime Egidio da Silva Junior"
+    var RA="6322100"
+    alert(Nome+"  -  "+RA);
+    </script>
+
+
+<script>
+window.onbeforeunload=function(){
+    return "Jogou o jogo?";
+}
+</script>
+
+
+<style>*{
+    
+font-family:Helvetica;
+font-weight: 400;
+}
+</style>
+
+
+</style>
+</head>
+
+<body>
+
+
+
+    
+<div id="Placar">
+<h1 id="Titulo"> Jogar: Jokenpô</h1>
+</div id="Placar">
+<div id="jogador">
+    <br> 
+    <br> 
+    <h3 id="Placar">Seu Placar:</h3>
+    <span id="jogador-pontos">0</span>
+<br/>
+<br/><br/>
+
+</div>
+
+
+    <button onclick="abrirAlerta()">Iniciar Jogo</button>
+    <input type="tex" id="txtResultado">
+    <script>
+        function abrirAlerta(){
+            alert("Jogo em Manutenção")
+        }
+    </script>
+
+
+
+    <br/>
+    <br/>
+    
+<img src="papel1.png" onclick="Escolha1()">
+<img src="pedra1.png"onclick="Escolha2()">
+<img src="tesoura1.png"onclick="Escolha3()">
+<br/>
+<br/>
+<img src="papel2.png"onclick="Escolha4()">
+<img src="pedra2.png"onclick="Escolha5()">
+<img src="tesoura2.png"onclick="Escolha6()">
+<br/>
+<br/>
+<button onclick="abrirAlerta2()" id="btnResultado"> Mostra</button>
+<script>
+    function abrirAlerta2(){
+        alert("Ja disse que o jogo esta em Manutenção")
+    }
+</script>
+
+
+
+</body>
+
+</html>
